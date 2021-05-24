@@ -1,0 +1,8 @@
+sequence,Name,source_addresses,destination_addresses,destination_ports,protocols
+1,Https,any,internal,443,TCP
+2,Http,any,internal,80,TCP
+3,SSH,any,internal,22,TCP
+4,NTP1,internal,110.61.192.3-110.61.192.4,123,UDP
+5,Proxy,internal,110.61.192.2,8080,TCP
+6,DNS,internal,110.61.192.2,53,UDP
+7,DNS-TCP,internal,110.61.192.2,53,TCP
