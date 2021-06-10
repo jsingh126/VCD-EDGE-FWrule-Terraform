@@ -1,6 +1,6 @@
-vcd_user = "user1"
+vcd_user = ""
 
-vcd_pass = "Ch@ng3me@1"
+vcd_pass = ""
 
 vcd_org = ""
 
