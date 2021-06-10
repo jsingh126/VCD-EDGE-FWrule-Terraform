@@ -6,17 +6,8 @@ terraform {
     }
   }
 }
-/*
-# Finds an edge gateway with name starting with tenant name
-data "vcd_edgegateway" "unknown_egw" {
-  org = var.vcd_org
-  vdc = var.vcd_vdc
 
-  filter {
-    name_regex = "^Digital"
-  }
-}
-*/
+#reading csv files with list firewall rules
 locals {
   firewall_rules = csvdecode(file("${path.module}/rules.csv"))
 }
@@ -46,7 +37,7 @@ provider "vcd" {
 
 
 
-# Firewall Rules from Tenant to Shared Services Tenant
+# Firewall Rules 
 resource "vcd_nsxv_firewall_rule" "fw_rules" {
  # org          = "my-org"
   # vdc          = "my-vdc"
