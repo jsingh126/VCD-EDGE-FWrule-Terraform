@@ -18,7 +18,7 @@ data "vcd_edgegateway" "unknown_egw" {
 }
 */
 locals {
-  firewall_rules = csvdecode(file("${path.module}/test.csv"))
+  firewall_rules = csvdecode(file("${path.module}/rules.csv"))
 }
 
 
