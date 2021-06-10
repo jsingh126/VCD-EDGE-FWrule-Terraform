@@ -30,7 +30,7 @@ Once the project is cloned to your local machine, follow the steps below.
 |----------|---------|------------------|---------------------------|-------------------|-----------|
 | 1        | Https   | any              | 192.168.0.1, 192.168.0.10 | 443               | TCP       |
 
-5. But you can sepcifiy multiple IP addresses or ports if they are in a sequence :
+5. But you can sepcifiy range of IP addresses or ports:
 
 | sequence | Name    | source_addresses | destination_addresses     | destination_ports | protocols |
 |----------|---------|------------------|---------------------------|-------------------|-----------|
