@@ -41,9 +41,9 @@ Once the project is cloned to your local machine, follow the steps below.
 |----------|---------|------------------|---------------------------|-------------------|-----------|
 | 1        | Https   | any              | 192.168.0.1-192.168.0.10   | 443               | TCP       |
 
-5. It is expecting the rules.csv file in the same diretly where other files for this porject are. You can change that if needed.
+5. It is expecting the rules.csv file in the same directory where other files for this porject are. You can change that if needed.
 6. Update the terrafrom.tfvars with the variables values for your enviroment.
-7. Then you can simply run the "terrafrom plan" and "terrafrom apply" to apply the firewalls rules from the rules.csv to edge gateway in vCloud Directory.
+7. Then you can simply run the "terrafrom plan" and "terrafrom apply" to apply the firewalls rules from the rules.csv to edge gateway in vCloud Director.
 
 # References
 Documentation for Terraform VCD provider : https://registry.terraform.io/providers/vmware/vcd/latest/docs/resources/nsxv_firewall_rule
